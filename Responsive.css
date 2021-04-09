@@ -1,0 +1,297 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.selectnav{
+	display: none;
+}
+img{
+	max-width: 100;
+	height: auto;
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.left_content .single_post_wrapper img {
+    width: 100%;
+    height: auto;
+}
+	#header >nav #nav{
+		display: none;
+	}
+	#header nav{
+		float: left;
+		width: 61%;
+
+	}
+	.selectnav{
+	display: block;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	
+}
+	#header .logo_left{
+		float: right;
+	}
+#header .logo_left h2{
+	padding-top:0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+	.container {
+		width: 90%;
+	}
+
+	
+	.left_content {
+	    float: none;
+	    width: 90%;
+	    margin-right: 0;
+	}
+	#sidebar {
+    float: none;
+    width: 90%;
+	}
+	#sidebar .single_sidebar .search_box {
+	    width: 98%;
+	    float: none;
+	    border: 2px solid #EEEEEE;
+	    border-right: 2px solid #EEEEEE;
+	}
+
+	.email_submit input {
+    width: 98%;
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #EEEEEE;
+}
+
+
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+		.left_content .single_post_wrapper img {
+    width: 100%;
+    height: auto;
+}
+#header >nav #nav{
+		display: none;
+	}
+	#header nav{
+		float: left;
+		width: 61%;
+
+	}
+	.selectnav{
+		
+	display: block;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	
+}
+	#header .logo_left{
+		float: right;
+	}
+#header .logo_left h2{
+	padding-top:0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+		.container {
+		width: 98%;
+	}
+
+	
+	.left_content {
+	    float: none;
+	    width: 90%;
+	    margin-right: 0;
+	}
+	#sidebar {
+    float: none;
+    width: 90%;
+	}
+	#sidebar .single_sidebar .search_box {
+	    width: 96%;
+	    float: none;
+	    border: 2px solid #EEEEEE;
+	    border-right: 2px solid #EEEEEE;
+	}
+
+	.email_submit input {
+    width: 96%;
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #EEEEEE;
+}
+	
+	
+}
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.left_content .single_post_wrapper img {
+    width: 100%;
+    height: auto;
+}
+	#header >nav #nav{
+		display: none;
+	}
+	#header nav{
+		float: left;
+		width: 61%;
+
+	}
+	.selectnav{
+		
+	display: block;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	
+}
+	#header .logo_left{
+		float: right;
+	}
+#header .logo_left h2{
+	padding-top:0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+		.container {
+		width: 99%;
+	}
+
+	
+	.left_content {
+	    float: none;
+	    width: 90%;
+	    margin-right: 0;
+	}
+	#sidebar {
+    float: none;
+    width: 90%;
+	}
+	#sidebar .single_sidebar .search_box {
+	    width: 94%;
+	    float: none;
+	    border: 2px solid #EEEEEE;
+	    border-right: 2px solid #EEEEEE;
+	}
+
+	.email_submit input {
+    width: 94%;
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #EEEEEE;
+}
+.left_content .single_post_wrapper h2{
+	font-size: 17px;
+}
+	
+}
+
+
+@media only screen and (max-width: 480px){
+	#header >nav #nav{
+		display: none;
+	}
+	#header nav{
+		float: left;
+		width: 90%;
+
+	}
+	.selectnav{
+		
+	display: block;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	
+}
+#header .logo_left{
+		display: none;
+	}
+
+		.container {
+		width: 99%;
+	}
+
+	
+	.left_content {
+	    float: none;
+	    width: 90%;
+	    margin-right: 0;
+	}
+	#sidebar {
+    float: none;
+    width: 90%;
+	}
+	#sidebar .single_sidebar .search_box {
+	    width: 94%;
+	    float: none;
+	    border: 2px solid #EEEEEE;
+	    border-right: 2px solid #EEEEEE;
+	}
+
+	.email_submit input {
+    width: 94%;
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #EEEEEE;
+}
+.left_content .single_post_wrapper h2{
+	font-size: 14px;
+}
+
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+}
